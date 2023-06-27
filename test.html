@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+          .div1{background-color: aqua;width:45%;float: left;}
+          .div2{background-color: antiquewhite; width:45%;float: right;}
+           img{float: left;margin-right: 50px;height: 200px;}
+           @media(max-width:680px){
+            .div1{width:100%;margin-bottom: 10px;}
+            .div2{width: 100%;}
+           }
+           @media(max-width: 540px){
+            .main>div>div{text-align: justify;}
+            img{width: 100%;margin-bottom: 10px;object-fit: cover;}
+            h1,p{text-align: center;margin: 10px;}
+           }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="div1">
+            <img src="./assets/images/beautiful.jpg" / height="100px">
+            <h1 class="dh1">div1</h1>
+            <p>We strive to create the most beautiful websites for all your needs. Working closely with you
+                to
+                design and
+                develop an amazing website for your business</p>
+        </div>
+        <div class="div2">
+            <img src="./assets/images/construction.jpg"  height="100px"/>
+            <h1>div2</h1>
+            <p>We strive to create the most beautiful websites for all your needs. Working closely with you
+                to
+                design and
+                develop an amazing website for your business</p>
+        </div>
+    </div>
+</body>
+</html>
